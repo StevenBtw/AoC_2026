@@ -92,9 +92,9 @@ One pick per day, pick wisely.
 Each day lives in its own `dayNN/` folder with the puzzle input in `input.txt` (gitignored).
 
 ### Requirements
-- Python 3.13+
+- Python 3.15+
 - [uv](https://docs.astral.sh/uv/) for dependency management (covers the Python picks: solvOR, Marimo, SQL/DuckDB, XGBoost, scikit-learn)
-- CUDA 12.x (CUDA day only)
+- CUDA 13.x (CUDA day only)
 - Rust toolchain (GPUI and Grafeo days)
 
 ### Setup
