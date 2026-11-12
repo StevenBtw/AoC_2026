@@ -7,10 +7,10 @@ A different tool (software, language, or package) for each day.
 One pick per day, pick wisely.
 <!-- 12 picks, matching 2025's 12 days. TODO: if AoC 2026 has more days than picks, add picks or a rule for extra days -->
 
-| TI-84 Plus (no programs) | CUDA (C++) | solvOR (Python) | Grafeo (Rust) |
+| TI-84 Plus (no programs) | Excel (formulas) | SQL (DuckDB) | CUDA (C++) |
 |-----------------------|------------|-----------------|---------------|
-| Grafeo Web (TypeScript) | Marimo (Python) | Excel (formulas) | SQL (DuckDB) |
-| WebGPU (TypeScript) | GPUI (Rust) | XGBoost (Python) | scikit-learn (Python) |
+| WebGPU (TypeScript) | Grafeo Web (TypeScript)| GPUI (Rust) | Grafeo (Rust) |
+| Marimo (Python) | solvOR (Python) | XGBoost (Python) | scikit-learn (Python) |
 
 ---
 
