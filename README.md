@@ -10,7 +10,7 @@ One pick per day, pick wisely.
 | TI-84 Plus (no programs) | Excel (formulas) | SQL (DuckDB) | CUDA (C++) |
 |-----------------------|------------|-----------------|---------------|
 | WebGPU (TypeScript) | Grafeo Web (TypeScript)| GPUI (Rust) | Ascent (Rust) |
-| Marimo (Python) | solvOR (Python) | XGBoost (Python) | scikit-learn (Python) |
+| Marimo (Python) | solvOR (Python) | Lean 4 | scikit-learn (Python) |
 
 ---
 
@@ -71,9 +71,9 @@ One pick per day, pick wisely.
 
 - **GPUI (Rust):** Zed's GPU-accelerated UI framework, want to build a small interactive desktop app for a day that needs a real GUI with user input.
 
-- **XGBoost (Python):** one shoehorn day in the spirit of 2025's OpenVINO day, reframing a puzzle as a gradient-boosting problem.
+- **Lean 4:** theorem prover that's also a real functional language, want to solve a day with it and maybe prove something about the solution while I'm at it.
 
-- **scikit-learn (Python):** another shoehorn day, this time with the sklearn toolbox to classify, cluster or regress my way through the puzzle. Locked in even if part 2 hates it.
+- **scikit-learn (Python):** one shoehorn day in the spirit of 2025's OpenVINO day, using the sklearn toolbox to classify, cluster or regress my way through the puzzle. Locked in even if part 2 hates it.
 
 </details>
 
@@ -93,9 +93,10 @@ Each day lives in its own `dayNN/` folder with the puzzle input in `input.txt` (
 
 ### Requirements
 - Python 3.15+
-- [uv](https://docs.astral.sh/uv/) for dependency management (covers the Python picks: solvOR, Marimo, SQL/DuckDB, XGBoost, scikit-learn)
+- [uv](https://docs.astral.sh/uv/) for dependency management (covers the Python picks: solvOR, Marimo, SQL/DuckDB, scikit-learn)
 - CUDA 13.x (CUDA day only)
-- Rust toolchain (GPUI and Grafeo days)
+- Rust toolchain (GPUI and Ascent days)
+- [elan](https://github.com/leanprover/elan) for the Lean 4 toolchain (Lean day only)
 
 ### Setup
 ```bash
