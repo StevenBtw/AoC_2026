@@ -9,7 +9,7 @@ One pick per day, pick wisely.
 
 | TI-84 Plus (no programs) | Excel (formulas) | SQL (DuckDB) | CUDA (C++) |
 |-----------------------|------------|-----------------|---------------|
-| WebGPU (TypeScript) | Grafeo Web (TypeScript)| GPUI (Rust) | Grafeo (Rust) |
+| WebGPU (TypeScript) | Grafeo Web (TypeScript)| GPUI (Rust) | Ascent (Rust) |
 | Marimo (Python) | solvOR (Python) | XGBoost (Python) | scikit-learn (Python) |
 
 ---
@@ -57,7 +57,7 @@ One pick per day, pick wisely.
 
 - **solvOR (Python):** the solver pick is back, CP-SAT when the day fits, even if brute force would have been easier.
 
-- **Grafeo (Rust):** graph database instead of NetworkX for a graph day, want to query the puzzle graph with GQL/openCypher via the native Rust API.
+- **Ascent (Rust):** ascent is a logic programming language (similar to Datalog) embedded in Rust via macros. Could be fun to see how little lines are needed for a harder puzzle.
 
 - **Grafeo Web (TypeScript):** the in-browser visual app (grafeo-web, WASM core) for a day that wants interactive exploration: load the graph, type queries and watch it render.
 
