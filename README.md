@@ -9,8 +9,8 @@ One pick per day, pick wisely.
 
 | TI-84 Plus (no programs) | Excel (formulas) | SQL (DuckDB) | CUDA (C++) |
 |-----------------------|------------|-----------------|---------------|
-| WebGPU (TypeScript) | Grafeo Web (TypeScript)| GPUI (Rust) | Ascent (Rust) |
-| Marimo (Python) | solvOR (Python) | Lean 4 | scikit-learn (Python) |
+| WebGPU (TypeScript) | Lean 4 | GPUI (Rust) | Ascent (Rust) |
+| Marimo (Python) | solvOR (Python) | Grafeo (ecosystem) | scikit-learn (Python) |
 
 ---
 
@@ -59,7 +59,7 @@ One pick per day, pick wisely.
 
 - **Ascent (Rust):** ascent is a logic programming language (similar to Datalog) embedded in Rust via macros. Could be fun to see how little lines are needed for a harder puzzle.
 
-- **Grafeo Web (TypeScript):** the in-browser visual app (grafeo-web, WASM core) for a day that wants interactive exploration: load the graph, type queries and watch it render.
+- **Grafeo (ecosystem):** one pick for the whole Grafeo family, so I can choose whatever fits the day: the Rust engine itself, grafeo-web in the browser, grafeo-cuda, the server, etc. Or maybe even use all four on the same puzzle and show the differences.
 
 - **Marimo (Python):** notebooks are back, plan is to start each day with some EDA, like I said in last year's retrospective.
 
